@@ -1,0 +1,11 @@
+ #include<stdio.h> 
+ #include<conio.h>
+ int main()
+ {
+   int a=120,b=220;  
+   printf("before swap a value is:%d, b value is:%d",a,b);
+   a=a+b;     //a=a*b;
+   b=a-b;     //b=a/b;
+   a=a-b;     //a=a/b;
+   printf( "\nafter  swap a value is:%d, b value is:%d",a,b);   //print output 
+ }
